@@ -9,7 +9,7 @@ interface LoginFormProps {
   onSuccess: () => void;
 }
 
-const CORRECT_PASSWORD = "OPH123";
+const CORRECT_PASSWORD = "oph123";
 
 export function LoginForm({ onSuccess }: LoginFormProps) {
   const [password, setPassword] = useState("");
